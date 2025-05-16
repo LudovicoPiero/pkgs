@@ -10,7 +10,7 @@
   outputs =
     inputs@{ flake-parts, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      imports = [ ./pkgs ];
+      imports = [ ./packages ];
 
       systems = [
         "x86_64-linux"
@@ -20,14 +20,7 @@
       ];
 
       perSystem =
-        {
-          config,
-          self',
-          inputs',
-          pkgs,
-          system,
-          ...
-        }:
+        { pkgs, system, ... }:
         {
           # This sets `pkgs` to a nixpkgs with allowUnfree option set.
           _module.args.pkgs = import inputs.nixpkgs {
