@@ -3,31 +3,59 @@
 {
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
-    version = "3471b918d4b5aab2d3c3dd9f2c3b9c18fb470e8e";
+    version = "383c27ac46cbb55aa5f58acbd32841c1ed3a78a0";
     src = fetchgit {
       url = "https://github.com/catppuccin/fcitx5";
-      rev = "3471b918d4b5aab2d3c3dd9f2c3b9c18fb470e8e";
+      rev = "383c27ac46cbb55aa5f58acbd32841c1ed3a78a0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-1IqFVTEY6z8yNjpi5C+wahMN1kpt0OJATy5echjPXmc=";
+      sha256 = "sha256-n83f9ge4UhBFlgCPRCXygcVJiDp7st48lAJHTm1ohR4=";
     };
-    date = "2024-09-01";
+    date = "2025-03-22";
   };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
-    version = "a44d3b0afd7d0cc4db95ccb4f4f34d4d81eacd9e";
+    version = "59e3de00f01e5adb851d824cf7911bd90c31083a";
     src = fetchgit {
       url = "https://github.com/rafaelmardojai/firefox-gnome-theme";
-      rev = "a44d3b0afd7d0cc4db95ccb4f4f34d4d81eacd9e";
+      rev = "59e3de00f01e5adb851d824cf7911bd90c31083a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-ZVlI3ZzWaBcrYuq6u51/gGa+pOEOMZvgticmSQhnMDo=";
+      sha256 = "sha256-5A6LL7T0lttn1vrKsNOKUk9V0ittdW0VEqh6AtefxJ4=";
     };
-    date = "2025-03-13";
+    date = "2025-04-14";
+  };
+  firefox-ui-fix = {
+    pname = "firefox-ui-fix";
+    version = "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438";
+    src = fetchgit {
+      url = "https://github.com/black7375/Firefox-UI-Fix";
+      rev = "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-/AaUXbT9iZ2si1pp5CTGvGrTG/hj1fU3Ir/ZAijvscc=";
+    };
+    date = "2025-05-11";
+  };
+  fuzzmoji = {
+    pname = "fuzzmoji";
+    version = "8385183f7a4b9c6638a227089af684bd044da678";
+    src = fetchgit {
+      url = "https://codeberg.org/codingotaku/fuzzmoji";
+      rev = "8385183f7a4b9c6638a227089af684bd044da678";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-hz25WX3TnlMifdXrOl9x8+FjgEnEO+RzVAsPf/KrpsY=";
+    };
+    date = "2024-09-22";
   };
   san-francisco-pro = {
     pname = "san-francisco-pro";
@@ -43,52 +71,18 @@
     };
     date = "2021-06-22";
   };
-  waybar = {
-    pname = "waybar";
-    version = "8490a1d9b9a5c8770dd63e9faca0a5e01acedcae";
-    src = fetchgit {
-      url = "https://github.com/alexays/waybar";
-      rev = "8490a1d9b9a5c8770dd63e9faca0a5e01acedcae";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-VpT3ePqmo75Ni6/02KFGV6ltnpiV70/ovG/p1f2wKkU=";
-    };
-    date = "2025-02-21";
-  };
-  wezterm = {
-    pname = "wezterm";
-    version = "12b971ac44738f37c120160da165cd9072c0e6d2";
-    src = fetchgit {
-      url = "https://github.com/wez/wezterm";
-      rev = "12b971ac44738f37c120160da165cd9072c0e6d2";
-      fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-AJ//9O1Sbo0FqU0C2ZUMD9VTk/IP+uMZU1Cx+Tra2Jo=";
-    };
-    cargoLock."Cargo.lock" = {
-      lockFile = ./wezterm-12b971ac44738f37c120160da165cd9072c0e6d2/Cargo.lock;
-      outputHashes = {
-        "xcb-imdkit-0.3.0" = "sha256-77KaJO+QJWy3tJ9AF1TXKaQHpoVOfGIRqteyqpQaSWo=";
-      };
-    };
-    date = "2025-03-09";
-  };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "f78141b7bba73a808871e4d36bc869119945a0da";
+    version = "1e0656208de123b6cfe6e3c25d7777cff3b7b4d7";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "f78141b7bba73a808871e4d36bc869119945a0da";
+      rev = "1e0656208de123b6cfe6e3c25d7777cff3b7b4d7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-EJeyVqEs1SgtZccIQQVloulocHajURBsypbdFjuvtnE=";
+      sha256 = "sha256-+sPuqU8UQpxgI7fAVxvKsTWQKLEak92tiHojYNW/LS0=";
     };
-    date = "2025-03-13";
+    date = "2025-05-14";
   };
 }

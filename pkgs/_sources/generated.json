@@ -1,7 +1,7 @@
 {
     "catppuccin-fcitx5": {
         "cargoLocks": null,
-        "date": "2024-09-01",
+        "date": "2025-03-22",
         "extract": null,
         "name": "catppuccin-fcitx5",
         "passthru": null,
@@ -11,17 +11,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3471b918d4b5aab2d3c3dd9f2c3b9c18fb470e8e",
-            "sha256": "sha256-1IqFVTEY6z8yNjpi5C+wahMN1kpt0OJATy5echjPXmc=",
+            "rev": "383c27ac46cbb55aa5f58acbd32841c1ed3a78a0",
+            "sha256": "sha256-n83f9ge4UhBFlgCPRCXygcVJiDp7st48lAJHTm1ohR4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/catppuccin/fcitx5"
         },
-        "version": "3471b918d4b5aab2d3c3dd9f2c3b9c18fb470e8e"
+        "version": "383c27ac46cbb55aa5f58acbd32841c1ed3a78a0"
     },
     "firefox-gnome-theme": {
         "cargoLocks": null,
-        "date": "2025-03-13",
+        "date": "2025-04-14",
         "extract": null,
         "name": "firefox-gnome-theme",
         "passthru": null,
@@ -31,13 +31,53 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a44d3b0afd7d0cc4db95ccb4f4f34d4d81eacd9e",
-            "sha256": "sha256-ZVlI3ZzWaBcrYuq6u51/gGa+pOEOMZvgticmSQhnMDo=",
+            "rev": "59e3de00f01e5adb851d824cf7911bd90c31083a",
+            "sha256": "sha256-5A6LL7T0lttn1vrKsNOKUk9V0ittdW0VEqh6AtefxJ4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/rafaelmardojai/firefox-gnome-theme"
         },
-        "version": "a44d3b0afd7d0cc4db95ccb4f4f34d4d81eacd9e"
+        "version": "59e3de00f01e5adb851d824cf7911bd90c31083a"
+    },
+    "firefox-ui-fix": {
+        "cargoLocks": null,
+        "date": "2025-05-11",
+        "extract": null,
+        "name": "firefox-ui-fix",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438",
+            "sha256": "sha256-/AaUXbT9iZ2si1pp5CTGvGrTG/hj1fU3Ir/ZAijvscc=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/black7375/Firefox-UI-Fix"
+        },
+        "version": "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438"
+    },
+    "fuzzmoji": {
+        "cargoLocks": null,
+        "date": "2024-09-22",
+        "extract": null,
+        "name": "fuzzmoji",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "8385183f7a4b9c6638a227089af684bd044da678",
+            "sha256": "sha256-hz25WX3TnlMifdXrOl9x8+FjgEnEO+RzVAsPf/KrpsY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://codeberg.org/codingotaku/fuzzmoji"
+        },
+        "version": "8385183f7a4b9c6638a227089af684bd044da678"
     },
     "san-francisco-pro": {
         "cargoLocks": null,
@@ -59,56 +99,9 @@
         },
         "version": "8bfea09aa6f1139479f80358b2e1e5c6dc991a58"
     },
-    "waybar": {
-        "cargoLocks": null,
-        "date": "2025-02-21",
-        "extract": null,
-        "name": "waybar",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "8490a1d9b9a5c8770dd63e9faca0a5e01acedcae",
-            "sha256": "sha256-VpT3ePqmo75Ni6/02KFGV6ltnpiV70/ovG/p1f2wKkU=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/alexays/waybar"
-        },
-        "version": "8490a1d9b9a5c8770dd63e9faca0a5e01acedcae"
-    },
-    "wezterm": {
-        "cargoLocks": {
-            "Cargo.lock": [
-                "./wezterm-12b971ac44738f37c120160da165cd9072c0e6d2/Cargo.lock",
-                {
-                    "xcb-imdkit-0.3.0": "sha256-77KaJO+QJWy3tJ9AF1TXKaQHpoVOfGIRqteyqpQaSWo="
-                }
-            ]
-        },
-        "date": "2025-03-09",
-        "extract": null,
-        "name": "wezterm",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "12b971ac44738f37c120160da165cd9072c0e6d2",
-            "sha256": "sha256-AJ//9O1Sbo0FqU0C2ZUMD9VTk/IP+uMZU1Cx+Tra2Jo=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/wez/wezterm"
-        },
-        "version": "12b971ac44738f37c120160da165cd9072c0e6d2"
-    },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
-        "date": "2025-03-13",
+        "date": "2025-05-14",
         "extract": null,
         "name": "whitesur-gtk-theme",
         "passthru": null,
@@ -118,12 +111,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "f78141b7bba73a808871e4d36bc869119945a0da",
-            "sha256": "sha256-EJeyVqEs1SgtZccIQQVloulocHajURBsypbdFjuvtnE=",
+            "rev": "1e0656208de123b6cfe6e3c25d7777cff3b7b4d7",
+            "sha256": "sha256-+sPuqU8UQpxgI7fAVxvKsTWQKLEak92tiHojYNW/LS0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme"
         },
-        "version": "f78141b7bba73a808871e4d36bc869119945a0da"
+        "version": "1e0656208de123b6cfe6e3c25d7777cff3b7b4d7"
     }
 }

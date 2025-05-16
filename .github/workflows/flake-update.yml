@@ -1,9 +1,9 @@
-name: Update Flakes
+name: "Update Flakes"
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 17 * * *"
+    - cron: "0 16 * * *"
 
 jobs:
   update-flake-lock:
@@ -15,10 +15,11 @@ jobs:
       - run: git config --global user.email "maximiliansforza@proton.me"
       - run: git config --global user.name "Maximilian Sforza"
 
-      - name: Install Nix
-        uses: cachix/install-nix-action@v31
+      - name: Install Lix
+        uses: DeterminateSystems/nix-installer-action@v17
         with:
-          nix_path: nixpkgs=channel:nixos-unstable
+          diagnostic-endpoint: ''
+          source-url: 'https://install.lix.systems/lix/lix-installer-x86_64-linux'
 
       - name: Update flake.lock
         uses: DeterminateSystems/update-flake-lock@main

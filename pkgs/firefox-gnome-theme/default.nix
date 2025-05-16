@@ -4,8 +4,8 @@
   stdenvNoCC,
   sources,
 }:
-stdenvNoCC.mkDerivation (_finalAttrs: {
-  inherit (sources.firefox-gnome-theme) pname src version;
+stdenvNoCC.mkDerivation (finalAttrs: {
+  inherit (sources.firefox-gnome-theme) pname version src;
 
   installPhase = ''
     runHook preInstall
@@ -20,9 +20,6 @@ stdenvNoCC.mkDerivation (_finalAttrs: {
     description = "A GNOME theme for Firefox";
     homepage = "https://github.com/rafaelmardojai/firefox-gnome-theme";
     license = lib.licenses.unlicense;
-    maintainers = with lib.maintainers; [
-      ludovicopiero
-
-    ];
+    maintainers = with lib.maintainers; [ ludovicopiero ];
   };
 })

@@ -39,6 +39,7 @@
   libayatana-appindicator,
   libdbusmenu,
   libGL,
+  libgbm,
   # High-DPI support: Spotify's --force-device-scale-factor argument
   # not added if `null`, otherwise, should be a number.
   deviceScaleFactor ? null,
@@ -49,14 +50,14 @@ let
   # If an update breaks things, one of those might have valuable info:
   # https://aur.archlinux.org/packages/spotify/
   # https://community.spotify.com/t5/Desktop-Linux
-  version = "1.2.50.335.g5e2860a8";
+  version = "1.2.59.514.g834e17d4";
   # To get the latest stable revision:
   # curl -H 'X-Ubuntu-Series: 16' 'https://api.snapcraft.io/api/v1/snaps/details/spotify?channel=stable' | jq '.download_url,.version,.last_updated'
   # To get general information:
   # curl -H 'Snap-Device-Series: 16' 'https://api.snapcraft.io/v2/snaps/info/spotify' | jq '.'
   # More examples of api usage:
   # https://github.com/canonical-websites/snapcraft.io/blob/master/webapp/publisher/snaps/views.py
-  rev = "81";
+  rev = "86";
 
   deps = [
     alsa-lib
@@ -80,6 +81,7 @@ let
     libdrm
     libgcrypt
     libGL
+    libgbm
     libnotify
     libpng
     libpulseaudio
@@ -121,7 +123,8 @@ stdenv.mkDerivation {
   # https://community.spotify.com/t5/Desktop-Linux/Redistribute-Spotify-on-Linux-Distributions/td-p/1695334
   src = fetchurl {
     url = "https://api.snapcraft.io/api/v1/snaps/download/pOBIoZ2LrCB3rDohMxoYGnbN14EHOgD7_${rev}.snap";
-    hash = "sha256-RrauWQgeZuvk7w0m1xFswDll23RynM6S1MvNDraTJlA=";
+    hash = "sha256-rhCv2TB/CobvC6fdcsuBOPtccwBAzEnXcu0h7q6YH2c=";
+    curlOpts = "--retry 3";
   };
 
   nativeBuildInputs = [
@@ -226,11 +229,8 @@ stdenv.mkDerivation {
     homepage = "https://www.spotify.com/";
     description = "Play music from the Spotify music service";
     sourceProvenance = with lib.sourceTypes; [ binaryNativeCode ];
-    # license = licenses.unfree;
-    maintainers = with lib.maintainers; [
-      ludovicopiero
-
-    ];
+    license = lib.licenses.unfree;
+    maintainers = with lib.maintainers; [ ludovicopiero ];
     platforms = [ "x86_64-linux" ];
   };
 }

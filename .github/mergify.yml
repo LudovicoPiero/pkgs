@@ -1,51 +1,43 @@
+queue_rules:
+  - name: default
+    queue_conditions:
+      - check-success=All Garnix checks
+      - -title~=(WIP|wip)
+      - -merged
+      - -closed
+      - -draft
+      - -author~=\[bot\]$
+    merge_conditions: []
+    merge_method: merge
+    update_method: merge
+
 pull_request_rules:
-  - name: automatic rebase for PR marked as “keep-up-to-date“
+  - name: Automatic rebase for PRs marked as "keep-up-to-date"
     conditions:
-      - -draft # filter-out draft PRs
-      - label="keep-up-to-date"
-      - "label!=CI:fail" # exclude PRs with "CI::fail" label
+      - label=keep-up-to-date
+      - -draft
     actions:
       update:
 
-  - name: Rebase pull requests once when it's labeled with `rebase`
-    conditions:
-      - label=rebase
-    actions:
-      rebase: {}
-      label:
-        remove:
-          - rebase
-
   - name: Automatic merge when CI passes
-    conditions:
-      - check-success=All Garnix checks
+    conditions: []
     actions:
-      merge:
-        method: rebase
-      delete_head_branch:
+      queue:
 
-  - name: Warn on conflicts
+  - name: Toggle conflict label based on mergeability
     conditions:
       - conflict
     actions:
-      comment:
-        message: "@{{author}} this pull request is now in conflict 😩"
       label:
         toggle:
           - conflict
+      comment:
+        message: "@{{author}} this pull request is now in conflict 😩"
 
-  - name: Toggle labels based on CI state
+  - name: Label WIP PRs
     conditions:
-      - check-failure=All Garnix checks
+      - title~=(WIP|wip)
     actions:
       label:
-        toggle:
-          - "CI:fail"
-
-  - name: Add "WIP" label when the title contains "WIP"
-    conditions:
-      - title~=WIP
-    actions:
-      label:
-        toggle:
+        add:
           - WIP

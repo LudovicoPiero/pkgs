@@ -4,7 +4,7 @@
   sources,
 }:
 
-stdenvNoCC.mkDerivation (finalAttrs: {
+stdenvNoCC.mkDerivation {
   inherit (sources.catppuccin-fcitx5) pname version src;
 
   dontBuild = true;
@@ -18,9 +18,6 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     description = "Soothing pastel theme for Fcitx5";
     homepage = "https://github.com/catppuccin/fcitx5";
     license = with lib.licenses; [ mit ];
-    maintainers = with lib.maintainers; [
-      ludovicopiero
-
-    ];
+    maintainers = with lib.maintainers; [ ludovicopiero ];
   };
-})
+}

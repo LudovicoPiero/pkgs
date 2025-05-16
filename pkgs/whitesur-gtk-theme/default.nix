@@ -9,11 +9,11 @@
   libxml2,
   sassc,
   util-linux,
-  altVariants ? [ ], # default: normal
-  colorVariants ? [ ], # default: all
-  opacityVariants ? [ ], # default: all
-  themeVariants ? [ ], # default: default (BigSur-like theme)
-  schemeVariants ? [ ], # default: standard
+  altVariants ? [ "normal" ], # default: normal
+  colorVariants ? [ "dark" ], # default: all
+  opacityVariants ? [ "normal" ], # default: all
+  themeVariants ? [ "default" ], # default: default (BigSur-like theme)
+  schemeVariants ? [ "standard" ], # default: standard
   iconVariant ? null, # default: standard (Apple logo)
   nautilusStyle ? null, # default: stable (BigSur-like style)
   panelOpacity ? null, # default: 15%
@@ -110,7 +110,7 @@ lib.checkListOfEnum "${pname}: window control buttons variants" [ "normal" "alt"
     ];
 
     postPatch = ''
-      find -name "*.sh" -print0 | while IFS= read -r -d ''' file; do
+      find . -name "*.sh" -print0 | while IFS= read -r -d ''\'' file; do
         patchShebangs "$file"
       done
 
@@ -154,9 +154,6 @@ lib.checkListOfEnum "${pname}: window control buttons variants" [ "normal" "alt"
       homepage = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
       license = lib.licenses.mit;
       platforms = lib.platforms.unix;
-      maintainers = [
-        lib.maintainers.ludovicopiero
-
-      ];
+      maintainers = [ lib.maintainers.ludovicopiero ];
     };
   }
