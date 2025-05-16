@@ -3,7 +3,7 @@ name: "Update Packages"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * 0"
+    - cron: "0 16 * * 0"
 
 jobs:
   update-packages:
