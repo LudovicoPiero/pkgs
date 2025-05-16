@@ -1,5 +1,5 @@
 {
-  description = "Description for the project";
+  description = "Ludovico's Packages";
 
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";
@@ -20,15 +20,8 @@
       ];
 
       perSystem =
-        { pkgs, system, ... }:
+        { pkgs, ... }:
         {
-          # This sets `pkgs` to a nixpkgs with allowUnfree option set.
-          _module.args.pkgs = import inputs.nixpkgs {
-            inherit system;
-            overlays = [ inputs.rust-overlay.overlays.default ];
-            config.allowUnfree = true;
-          };
-
           formatter = pkgs.nixfmt-rfc-style;
         };
     };
