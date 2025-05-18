@@ -57,6 +57,20 @@
     };
     date = "2024-09-22";
   };
+  runapp = {
+    pname = "runapp";
+    version = "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a";
+    src = fetchgit {
+      url = "https://github.com/c4rlo/runapp";
+      rev = "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-Aj9UZ09M2zi7kEtdJROGrYlwBGbv7fMjQov98lMhp9c=";
+    };
+    date = "2024-11-26";
+  };
   san-francisco-pro = {
     pname = "san-francisco-pro";
     version = "8bfea09aa6f1139479f80358b2e1e5c6dc991a58";

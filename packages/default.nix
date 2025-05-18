@@ -26,6 +26,8 @@
 
         firefox-ui-fix = pkgs.callPackage ./firefox-ui-fix { inherit sources; };
 
+        runapp = pkgs.callPackage ./runapp { inherit sources; };
+
         san-francisco-pro = pkgs.callPackage ./san-francisco-pro { inherit sources; };
 
         sarasa-gothic = pkgs.callPackage ./sarasa-gothic { };
