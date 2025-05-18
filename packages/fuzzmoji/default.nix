@@ -10,7 +10,7 @@
 stdenvNoCC.mkDerivation {
   inherit (sources.fuzzmoji) pname version src;
 
-  nativeBuildInputs = [
+  buildInputs = [
     fuzzel
     wl-clipboard
     libnotify
