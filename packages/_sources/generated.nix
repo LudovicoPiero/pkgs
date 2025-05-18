@@ -17,17 +17,17 @@
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
-    version = "383c27ac46cbb55aa5f58acbd32841c1ed3a78a0";
+    version = "393845cf3ed0e0000bfe57fe1b9ad75748e2547f";
     src = fetchgit {
       url = "https://github.com/catppuccin/fcitx5";
-      rev = "383c27ac46cbb55aa5f58acbd32841c1ed3a78a0";
+      rev = "393845cf3ed0e0000bfe57fe1b9ad75748e2547f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-n83f9ge4UhBFlgCPRCXygcVJiDp7st48lAJHTm1ohR4=";
+      sha256 = "sha256-ss0kW+ulvMhxeZKBrjQ7E5Cya+02eJrGsE4OLEkqKks=";
     };
-    date = "2025-03-22";
+    date = "2025-05-16";
   };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
