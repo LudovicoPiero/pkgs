@@ -26,3 +26,7 @@ fetch.git = "https://codeberg.org/codingotaku/fuzzmoji"
 [runapp]
 src.git = "https://github.com/c4rlo/runapp"
 fetch.git = "https://github.com/c4rlo/runapp"
+
+[app2unit]
+src.git = "https://github.com/Vladimir-csp/app2unit"
+fetch.git = "https://github.com/Vladimir-csp/app2unit"
