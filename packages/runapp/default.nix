@@ -41,5 +41,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/c4rlo/runapp";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ ludovicopiero ];
+    mainProgram = "runapp";
   };
 }

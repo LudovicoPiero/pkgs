@@ -29,5 +29,6 @@ stdenv.mkDerivation (finalAttrs: {
     homepage = "https://github.com/Vladimir-csp/app2unit";
     license = lib.licenses.gpl3;
     maintainers = with lib.maintainers; [ ludovicopiero ];
+    mainProgram = "app2unit";
   };
 })
