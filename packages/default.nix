@@ -16,6 +16,8 @@
       };
 
       packages = {
+        app2unit = pkgs.callPackage ./app2unit { inherit sources; };
+
         catppuccin-fcitx5 = pkgs.callPackage ./catppuccin-fcitx5 { inherit sources; };
 
         iosevka-q = pkgs.callPackage ./iosevka-q { };
