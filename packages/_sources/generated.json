@@ -41,7 +41,7 @@
     },
     "firefox-gnome-theme": {
         "cargoLocks": null,
-        "date": "2025-04-14",
+        "date": "2025-05-22",
         "extract": null,
         "name": "firefox-gnome-theme",
         "passthru": null,
@@ -51,13 +51,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "59e3de00f01e5adb851d824cf7911bd90c31083a",
-            "sha256": "sha256-5A6LL7T0lttn1vrKsNOKUk9V0ittdW0VEqh6AtefxJ4=",
+            "rev": "1ca82b07be9ff99da4b26092a846101ad109ef05",
+            "sha256": "sha256-G1ZrQrQWRLA15kLFT9+Ycz2GK+FmXHUwEK8pXnKSyKk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/rafaelmardojai/firefox-gnome-theme"
         },
-        "version": "59e3de00f01e5adb851d824cf7911bd90c31083a"
+        "version": "1ca82b07be9ff99da4b26092a846101ad109ef05"
     },
     "firefox-ui-fix": {
         "cargoLocks": null,
@@ -81,7 +81,7 @@
     },
     "fuzzmoji": {
         "cargoLocks": null,
-        "date": "2024-09-22",
+        "date": "2025-05-24",
         "extract": null,
         "name": "fuzzmoji",
         "passthru": null,
@@ -91,13 +91,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "8385183f7a4b9c6638a227089af684bd044da678",
-            "sha256": "sha256-hz25WX3TnlMifdXrOl9x8+FjgEnEO+RzVAsPf/KrpsY=",
+            "rev": "525fe00c5ee444bbdde125ef766157415f76ebc9",
+            "sha256": "sha256-hwedN5KJex242dQqrv93qYUUV4oAwhoH0ShNAr1H/30=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/codingotaku/fuzzmoji"
         },
-        "version": "8385183f7a4b9c6638a227089af684bd044da678"
+        "version": "525fe00c5ee444bbdde125ef766157415f76ebc9"
     },
     "runapp": {
         "cargoLocks": null,
