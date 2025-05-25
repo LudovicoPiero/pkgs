@@ -31,17 +31,17 @@
   };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
-    version = "59e3de00f01e5adb851d824cf7911bd90c31083a";
+    version = "1ca82b07be9ff99da4b26092a846101ad109ef05";
     src = fetchgit {
       url = "https://github.com/rafaelmardojai/firefox-gnome-theme";
-      rev = "59e3de00f01e5adb851d824cf7911bd90c31083a";
+      rev = "1ca82b07be9ff99da4b26092a846101ad109ef05";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-5A6LL7T0lttn1vrKsNOKUk9V0ittdW0VEqh6AtefxJ4=";
+      sha256 = "sha256-G1ZrQrQWRLA15kLFT9+Ycz2GK+FmXHUwEK8pXnKSyKk=";
     };
-    date = "2025-04-14";
+    date = "2025-05-22";
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
@@ -59,17 +59,17 @@
   };
   fuzzmoji = {
     pname = "fuzzmoji";
-    version = "8385183f7a4b9c6638a227089af684bd044da678";
+    version = "525fe00c5ee444bbdde125ef766157415f76ebc9";
     src = fetchgit {
       url = "https://codeberg.org/codingotaku/fuzzmoji";
-      rev = "8385183f7a4b9c6638a227089af684bd044da678";
+      rev = "525fe00c5ee444bbdde125ef766157415f76ebc9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-hz25WX3TnlMifdXrOl9x8+FjgEnEO+RzVAsPf/KrpsY=";
+      sha256 = "sha256-hwedN5KJex242dQqrv93qYUUV4oAwhoH0ShNAr1H/30=";
     };
-    date = "2024-09-22";
+    date = "2025-05-24";
   };
   runapp = {
     pname = "runapp";
