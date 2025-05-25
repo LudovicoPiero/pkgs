@@ -17,12 +17,15 @@ stdenvNoCC.mkDerivation {
   ];
 
   installPhase = ''
-    mkdir -p $out/bin
-    cp fuzzmoji emoji-list $out/bin
+    mkdir -p $out/{bin,share}
+
+    cp fuzzmoji $out/bin
+    cp emoji-list $out/share
+
     chmod +x $out/bin/fuzzmoji
 
     substituteInPlace $out/bin/fuzzmoji \
-      --replace-fail /usr/share/fuzzmoji/emoji-list $out/bin/emoji-list
+      --replace-fail /usr/share/fuzzmoji/emoji-list $out/share/emoji-list
   '';
 
   meta = {
