@@ -31,17 +31,17 @@
   };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
-    version = "1ca82b07be9ff99da4b26092a846101ad109ef05";
+    version = "4eb2714fbed2b80e234312611a947d6cb7d70caf";
     src = fetchgit {
       url = "https://github.com/rafaelmardojai/firefox-gnome-theme";
-      rev = "1ca82b07be9ff99da4b26092a846101ad109ef05";
+      rev = "4eb2714fbed2b80e234312611a947d6cb7d70caf";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-G1ZrQrQWRLA15kLFT9+Ycz2GK+FmXHUwEK8pXnKSyKk=";
+      sha256 = "sha256-pGvD/RGuuPf/4oogsfeRaeMm6ipUIznI2QSILKjKzeA=";
     };
-    date = "2025-05-22";
+    date = "2025-05-27";
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
