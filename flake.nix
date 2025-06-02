@@ -19,9 +19,12 @@
       ];
 
       perSystem =
-        { pkgs, ... }:
+        { pkgs, lib, ... }:
         {
-          formatter = pkgs.nixfmt-rfc-style;
+          formatter = pkgs.writeShellScriptBin "formatter" ''
+            echo "Formatting *.nix files..."
+            fd . -t f -e nix --exclude "_sources" -x ${lib.getExe' pkgs.nixfmt-rfc-style "nixfmt"} -s '{}'
+          '';
         };
     };
 }
