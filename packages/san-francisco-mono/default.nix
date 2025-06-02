@@ -4,7 +4,8 @@
   sources,
 }:
 stdenvNoCC.mkDerivation {
-  inherit (sources.san-francisco-fonts) pname version src;
+  inherit (sources.san-francisco-fonts) version src;
+  pname = "san-francisco-mono";
 
   buildPhase = ''
     runHook preBuild
