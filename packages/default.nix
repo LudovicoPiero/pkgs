@@ -30,7 +30,13 @@
 
         runapp = pkgs.callPackage ./runapp { inherit sources; };
 
+        new-york-font = pkgs.callPackage ./new-york-font { inherit sources; };
+
+        san-francisco-compact = pkgs.callPackage ./san-francisco-compact { inherit sources; };
+
         san-francisco-pro = pkgs.callPackage ./san-francisco-pro { inherit sources; };
+
+        san-francisco-mono = pkgs.callPackage ./san-francisco-mono { inherit sources; };
 
         sarasa-gothic = pkgs.callPackage ./sarasa-gothic { };
 
