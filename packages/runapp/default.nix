@@ -28,9 +28,7 @@ stdenv.mkDerivation {
     install -Dm755 build_release/runapp $out/bin/runapp
   '';
 
-  nativeBuildInputs = [
-    pkg-config
-  ];
+  nativeBuildInputs = [ pkg-config ];
 
   buildInputs = [
     systemdMinimal # libsystemd
