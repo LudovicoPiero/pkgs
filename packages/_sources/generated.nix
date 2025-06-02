@@ -85,6 +85,20 @@
     };
     date = "2024-11-26";
   };
+  san-francisco-fonts = {
+    pname = "san-francisco-fonts";
+    version = "5a8fc7d569fa2b4fb5fe9a63ad66e5cf9ae00eae";
+    src = fetchgit {
+      url = "https://github.com/oyezcubed/Apple-Fonts-San-Francisco-New-York";
+      rev = "5a8fc7d569fa2b4fb5fe9a63ad66e5cf9ae00eae";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-NBvWqHMaieaCZffqNitnhn979Sl2bAkIwC5sWW24z7g=";
+    };
+    date = "2020-08-27";
+  };
   san-francisco-pro = {
     pname = "san-francisco-pro";
     version = "8bfea09aa6f1139479f80358b2e1e5c6dc991a58";

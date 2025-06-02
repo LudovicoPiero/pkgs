@@ -30,3 +30,7 @@ fetch.git = "https://github.com/c4rlo/runapp"
 [app2unit]
 src.git = "https://github.com/Vladimir-csp/app2unit"
 fetch.git = "https://github.com/Vladimir-csp/app2unit"
+
+[san-francisco-fonts]
+src.git = "https://github.com/oyezcubed/Apple-Fonts-San-Francisco-New-York"
+fetch.git = "https://github.com/oyezcubed/Apple-Fonts-San-Francisco-New-York"

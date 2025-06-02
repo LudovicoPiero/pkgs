@@ -119,6 +119,26 @@
         },
         "version": "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a"
     },
+    "san-francisco-fonts": {
+        "cargoLocks": null,
+        "date": "2020-08-27",
+        "extract": null,
+        "name": "san-francisco-fonts",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "5a8fc7d569fa2b4fb5fe9a63ad66e5cf9ae00eae",
+            "sha256": "sha256-NBvWqHMaieaCZffqNitnhn979Sl2bAkIwC5sWW24z7g=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/oyezcubed/Apple-Fonts-San-Francisco-New-York"
+        },
+        "version": "5a8fc7d569fa2b4fb5fe9a63ad66e5cf9ae00eae"
+    },
     "san-francisco-pro": {
         "cargoLocks": null,
         "date": "2021-06-22",
