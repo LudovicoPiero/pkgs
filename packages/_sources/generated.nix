@@ -59,17 +59,17 @@
   };
   fuzzmoji = {
     pname = "fuzzmoji";
-    version = "525fe00c5ee444bbdde125ef766157415f76ebc9";
+    version = "46818077f585b19c6b146dd5f2dc640619d1cd70";
     src = fetchgit {
       url = "https://codeberg.org/codingotaku/fuzzmoji";
-      rev = "525fe00c5ee444bbdde125ef766157415f76ebc9";
+      rev = "46818077f585b19c6b146dd5f2dc640619d1cd70";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-hwedN5KJex242dQqrv93qYUUV4oAwhoH0ShNAr1H/30=";
+      sha256 = "sha256-QfGRy6KmciUww99MtbOJizWFi+xR/33c2XsUT9+ygyE=";
     };
-    date = "2025-05-24";
+    date = "2025-06-06";
   };
   runapp = {
     pname = "runapp";
@@ -115,16 +115,16 @@
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "1e0656208de123b6cfe6e3c25d7777cff3b7b4d7";
+    version = "68e421a65dc5fcdab0ccbddb12aa702611845ccd";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "1e0656208de123b6cfe6e3c25d7777cff3b7b4d7";
+      rev = "68e421a65dc5fcdab0ccbddb12aa702611845ccd";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+sPuqU8UQpxgI7fAVxvKsTWQKLEak92tiHojYNW/LS0=";
+      sha256 = "sha256-ANBtC/+MhHS//HGNjRpUarSOt857MnBYofD3xOp4XPE=";
     };
-    date = "2025-05-14";
+    date = "2025-06-06";
   };
 }
