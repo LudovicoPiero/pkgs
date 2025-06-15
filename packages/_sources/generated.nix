@@ -3,17 +3,17 @@
 {
   app2unit = {
     pname = "app2unit";
-    version = "7b9672a2dc16bdfbe7b7b7c27043529ca3bcb6ae";
+    version = "0b9f4bbf1dd71b4568e33d903c51cb276b75bf01";
     src = fetchgit {
       url = "https://github.com/Vladimir-csp/app2unit";
-      rev = "7b9672a2dc16bdfbe7b7b7c27043529ca3bcb6ae";
+      rev = "0b9f4bbf1dd71b4568e33d903c51cb276b75bf01";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-8/H0M9bFppZE6JHm6seZq9X/u6HyPncvd2CUcnbptg0=";
+      sha256 = "sha256-CwiB/Co75BbVXem2XD2i7kccgjcDk8a0lXCOoz0QVIc=";
     };
-    date = "2025-05-10";
+    date = "2025-06-14";
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
@@ -59,31 +59,31 @@
   };
   fuzzmoji = {
     pname = "fuzzmoji";
-    version = "46818077f585b19c6b146dd5f2dc640619d1cd70";
+    version = "b8706203ffca6b7f98759a6c9f301f26c1df774d";
     src = fetchgit {
       url = "https://codeberg.org/codingotaku/fuzzmoji";
-      rev = "46818077f585b19c6b146dd5f2dc640619d1cd70";
+      rev = "b8706203ffca6b7f98759a6c9f301f26c1df774d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-QfGRy6KmciUww99MtbOJizWFi+xR/33c2XsUT9+ygyE=";
+      sha256 = "sha256-sGUbwS/28wRmCAFZNQVt7wT72K7efUtYhLuK6brWV4w=";
     };
-    date = "2025-06-06";
+    date = "2025-06-14";
   };
   runapp = {
     pname = "runapp";
-    version = "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a";
+    version = "2fd48dd0f1c0a89dbca07e0840ee6ea1d3b495a0";
     src = fetchgit {
       url = "https://github.com/c4rlo/runapp";
-      rev = "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a";
+      rev = "2fd48dd0f1c0a89dbca07e0840ee6ea1d3b495a0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Aj9UZ09M2zi7kEtdJROGrYlwBGbv7fMjQov98lMhp9c=";
+      sha256 = "sha256-auZJRNMai5ZdNwVgz23Xh1Xs3QpKw+Vj41XkgTwDM8M=";
     };
-    date = "2024-11-26";
+    date = "2025-06-08";
   };
   san-francisco-fonts = {
     pname = "san-francisco-fonts";
@@ -115,16 +115,16 @@
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "68e421a65dc5fcdab0ccbddb12aa702611845ccd";
+    version = "4e084d1162aa4c084579b930d19f547cf4838496";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "68e421a65dc5fcdab0ccbddb12aa702611845ccd";
+      rev = "4e084d1162aa4c084579b930d19f547cf4838496";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-ANBtC/+MhHS//HGNjRpUarSOt857MnBYofD3xOp4XPE=";
+      sha256 = "sha256-65BMbglBzLPVft3d9O1XvfA7MOqrWYzJ+lRBnV5b6EU=";
     };
-    date = "2025-06-06";
+    date = "2025-06-15";
   };
 }
