@@ -17,15 +17,16 @@ stdenvNoCC.mkDerivation {
   ];
 
   installPhase = ''
-    mkdir -p $out/{bin,share}
+    mkdir -p $out/{bin,fuzzmoji}
 
     cp fuzzmoji $out/bin
-    cp emoji-list $out/share
+    cp emoji-list $out/fuzzmoji
 
     chmod +x $out/bin/fuzzmoji
 
     substituteInPlace $out/bin/fuzzmoji \
-      --replace-fail /usr/share/fuzzmoji/emoji-list $out/share/emoji-list
+      --replace-fail 'SEARCH_DIRS="''${XDG_DATA_DIRS:-/usr/local/share/:/usr/share/}:''${XDG_DATA_HOME:-''$HOME/.local/share}"' \
+                     'SEARCH_DIRS="'$out'"'
   '';
 
   meta = {

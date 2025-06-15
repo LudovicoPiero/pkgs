@@ -1,7 +1,7 @@
 {
     "app2unit": {
         "cargoLocks": null,
-        "date": "2025-05-10",
+        "date": "2025-06-14",
         "extract": null,
         "name": "app2unit",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "7b9672a2dc16bdfbe7b7b7c27043529ca3bcb6ae",
-            "sha256": "sha256-8/H0M9bFppZE6JHm6seZq9X/u6HyPncvd2CUcnbptg0=",
+            "rev": "0b9f4bbf1dd71b4568e33d903c51cb276b75bf01",
+            "sha256": "sha256-CwiB/Co75BbVXem2XD2i7kccgjcDk8a0lXCOoz0QVIc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Vladimir-csp/app2unit"
         },
-        "version": "7b9672a2dc16bdfbe7b7b7c27043529ca3bcb6ae"
+        "version": "0b9f4bbf1dd71b4568e33d903c51cb276b75bf01"
     },
     "catppuccin-fcitx5": {
         "cargoLocks": null,
@@ -81,7 +81,7 @@
     },
     "fuzzmoji": {
         "cargoLocks": null,
-        "date": "2025-06-06",
+        "date": "2025-06-14",
         "extract": null,
         "name": "fuzzmoji",
         "passthru": null,
@@ -91,17 +91,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "46818077f585b19c6b146dd5f2dc640619d1cd70",
-            "sha256": "sha256-QfGRy6KmciUww99MtbOJizWFi+xR/33c2XsUT9+ygyE=",
+            "rev": "b8706203ffca6b7f98759a6c9f301f26c1df774d",
+            "sha256": "sha256-sGUbwS/28wRmCAFZNQVt7wT72K7efUtYhLuK6brWV4w=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/codingotaku/fuzzmoji"
         },
-        "version": "46818077f585b19c6b146dd5f2dc640619d1cd70"
+        "version": "b8706203ffca6b7f98759a6c9f301f26c1df774d"
     },
     "runapp": {
         "cargoLocks": null,
-        "date": "2024-11-26",
+        "date": "2025-06-08",
         "extract": null,
         "name": "runapp",
         "passthru": null,
@@ -111,13 +111,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a",
-            "sha256": "sha256-Aj9UZ09M2zi7kEtdJROGrYlwBGbv7fMjQov98lMhp9c=",
+            "rev": "2fd48dd0f1c0a89dbca07e0840ee6ea1d3b495a0",
+            "sha256": "sha256-auZJRNMai5ZdNwVgz23Xh1Xs3QpKw+Vj41XkgTwDM8M=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/c4rlo/runapp"
         },
-        "version": "af4af9bcbb82a13d8b47acf37ba21ab4361ce53a"
+        "version": "2fd48dd0f1c0a89dbca07e0840ee6ea1d3b495a0"
     },
     "san-francisco-fonts": {
         "cargoLocks": null,
@@ -161,7 +161,7 @@
     },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
-        "date": "2025-06-06",
+        "date": "2025-06-15",
         "extract": null,
         "name": "whitesur-gtk-theme",
         "passthru": null,
@@ -171,12 +171,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "68e421a65dc5fcdab0ccbddb12aa702611845ccd",
-            "sha256": "sha256-ANBtC/+MhHS//HGNjRpUarSOt857MnBYofD3xOp4XPE=",
+            "rev": "4e084d1162aa4c084579b930d19f547cf4838496",
+            "sha256": "sha256-65BMbglBzLPVft3d9O1XvfA7MOqrWYzJ+lRBnV5b6EU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme"
         },
-        "version": "68e421a65dc5fcdab0ccbddb12aa702611845ccd"
+        "version": "4e084d1162aa4c084579b930d19f547cf4838496"
     }
 }
