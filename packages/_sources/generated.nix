@@ -3,17 +3,17 @@
 {
   app2unit = {
     pname = "app2unit";
-    version = "0b9f4bbf1dd71b4568e33d903c51cb276b75bf01";
+    version = "34fe24a230c0e48637c3e2bbfeeb0a3f3a48813b";
     src = fetchgit {
       url = "https://github.com/Vladimir-csp/app2unit";
-      rev = "0b9f4bbf1dd71b4568e33d903c51cb276b75bf01";
+      rev = "34fe24a230c0e48637c3e2bbfeeb0a3f3a48813b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-CwiB/Co75BbVXem2XD2i7kccgjcDk8a0lXCOoz0QVIc=";
+      sha256 = "sha256-xHqPCA9ycPcImmyMrJZEfnfrFZ3sKfP/mhJ86CHLTQ8=";
     };
-    date = "2025-06-14";
+    date = "2025-06-29";
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
@@ -59,31 +59,31 @@
   };
   fuzzmoji = {
     pname = "fuzzmoji";
-    version = "b8706203ffca6b7f98759a6c9f301f26c1df774d";
+    version = "f9079fd06e007c5c648f53761160946e1347709f";
     src = fetchgit {
       url = "https://codeberg.org/codingotaku/fuzzmoji";
-      rev = "b8706203ffca6b7f98759a6c9f301f26c1df774d";
+      rev = "f9079fd06e007c5c648f53761160946e1347709f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-sGUbwS/28wRmCAFZNQVt7wT72K7efUtYhLuK6brWV4w=";
+      sha256 = "sha256-L+rnjPOk7eoArnkgzBYatdEknCEuQWupT56iKyv7W1A=";
     };
-    date = "2025-06-14";
+    date = "2025-06-27";
   };
   runapp = {
     pname = "runapp";
-    version = "2fd48dd0f1c0a89dbca07e0840ee6ea1d3b495a0";
+    version = "88ba10cadf02ba39007426236d8199c41f51b84f";
     src = fetchgit {
       url = "https://github.com/c4rlo/runapp";
-      rev = "2fd48dd0f1c0a89dbca07e0840ee6ea1d3b495a0";
+      rev = "88ba10cadf02ba39007426236d8199c41f51b84f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-auZJRNMai5ZdNwVgz23Xh1Xs3QpKw+Vj41XkgTwDM8M=";
+      sha256 = "sha256-+Unr2wNBQuFP8SL6bO4PuX9sYiYmUhjrzfME9QNNTko=";
     };
-    date = "2025-06-08";
+    date = "2025-06-29";
   };
   san-francisco-fonts = {
     pname = "san-francisco-fonts";
