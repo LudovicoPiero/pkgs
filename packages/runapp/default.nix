@@ -1,11 +1,14 @@
 {
   lib,
-  stdenv,
+  gcc13Stdenv,
   sources,
 
   systemdMinimal,
   pkg-config,
 }:
+let
+  stdenv = gcc13Stdenv;
+in
 stdenv.mkDerivation {
   inherit (sources.runapp) pname version src;
 

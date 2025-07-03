@@ -1,17 +1,20 @@
 {
   lib,
-  stdenv,
+  gcc13Stdenv,
   sources,
 
   xdg-terminal-exec,
+  scdoc,
 }:
-
+let
+  stdenv = gcc13Stdenv;
+in
 stdenv.mkDerivation (finalAttrs: {
   inherit (sources.app2unit) pname version src;
 
   patchPhase = ''
     substituteInPlace app2unit \
-      --replace "xdg-terminal-exec" "${xdg-terminal-exec}/bin/xdg-terminal-exec"
+      --replace-quiet "xdg-terminal-exec" "${xdg-terminal-exec}/bin/xdg-terminal-exec"
 
   '';
 
@@ -23,6 +26,8 @@ stdenv.mkDerivation (finalAttrs: {
 
     runHook postInstall
   '';
+
+  nativeBuildInputs = [ scdoc ];
 
   meta = {
     description = "Launches Desktop Entries as Systemd user units";
