@@ -28,7 +28,7 @@
 
         firefox-ui-fix = pkgs.callPackage ./firefox-ui-fix { inherit sources; };
 
-        runapp = pkgs.callPackage ./runapp { inherit sources; };
+        # runapp = pkgs.callPackage ./runapp { inherit sources; };
 
         new-york-font = pkgs.callPackage ./new-york-font { inherit sources; };
 
