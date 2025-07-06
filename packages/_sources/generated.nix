@@ -59,31 +59,31 @@
   };
   fuzzmoji = {
     pname = "fuzzmoji";
-    version = "f9079fd06e007c5c648f53761160946e1347709f";
+    version = "af4baa86611f2dfbe66c845f1b7edb582efc6cb5";
     src = fetchgit {
       url = "https://codeberg.org/codingotaku/fuzzmoji";
-      rev = "f9079fd06e007c5c648f53761160946e1347709f";
+      rev = "af4baa86611f2dfbe66c845f1b7edb582efc6cb5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-L+rnjPOk7eoArnkgzBYatdEknCEuQWupT56iKyv7W1A=";
+      sha256 = "sha256-M3Sv7OLpUO84A1yS/TobxHVrBbwgedX8wNq58ZuJhKM=";
     };
-    date = "2025-06-27";
+    date = "2025-07-06";
   };
   runapp = {
     pname = "runapp";
-    version = "88ba10cadf02ba39007426236d8199c41f51b84f";
+    version = "358cf3f1fbf4156638e33462fe5bfa61c18e6a99";
     src = fetchgit {
       url = "https://github.com/c4rlo/runapp";
-      rev = "88ba10cadf02ba39007426236d8199c41f51b84f";
+      rev = "358cf3f1fbf4156638e33462fe5bfa61c18e6a99";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+Unr2wNBQuFP8SL6bO4PuX9sYiYmUhjrzfME9QNNTko=";
+      sha256 = "sha256-FnsnSO4SVea557Dvf5r3/GXlGkBbQsnxPR6A/TkACXI=";
     };
-    date = "2025-06-29";
+    date = "2025-07-05";
   };
   san-francisco-fonts = {
     pname = "san-francisco-fonts";
@@ -115,16 +115,16 @@
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "14d28dab5795f6d913f0b474c60ab6d26963ef15";
+    version = "58a7cc78afb4a95ffb459792603ceaca4c6c1a7f";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "14d28dab5795f6d913f0b474c60ab6d26963ef15";
+      rev = "58a7cc78afb4a95ffb459792603ceaca4c6c1a7f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-owcf643xFBGz1SLwJjFqBSjAA5Sr5dv/L+E/YX6jtTg=";
+      sha256 = "sha256-gfcEuAhZQP+dlr2newJxN916u2hYTfEdMaTpU6fFyL0=";
     };
-    date = "2025-06-20";
+    date = "2025-07-03";
   };
 }
