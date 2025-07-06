@@ -81,7 +81,7 @@
     },
     "fuzzmoji": {
         "cargoLocks": null,
-        "date": "2025-06-27",
+        "date": "2025-07-06",
         "extract": null,
         "name": "fuzzmoji",
         "passthru": null,
@@ -91,17 +91,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "f9079fd06e007c5c648f53761160946e1347709f",
-            "sha256": "sha256-L+rnjPOk7eoArnkgzBYatdEknCEuQWupT56iKyv7W1A=",
+            "rev": "af4baa86611f2dfbe66c845f1b7edb582efc6cb5",
+            "sha256": "sha256-M3Sv7OLpUO84A1yS/TobxHVrBbwgedX8wNq58ZuJhKM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/codingotaku/fuzzmoji"
         },
-        "version": "f9079fd06e007c5c648f53761160946e1347709f"
+        "version": "af4baa86611f2dfbe66c845f1b7edb582efc6cb5"
     },
     "runapp": {
         "cargoLocks": null,
-        "date": "2025-06-29",
+        "date": "2025-07-05",
         "extract": null,
         "name": "runapp",
         "passthru": null,
@@ -111,13 +111,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "88ba10cadf02ba39007426236d8199c41f51b84f",
-            "sha256": "sha256-+Unr2wNBQuFP8SL6bO4PuX9sYiYmUhjrzfME9QNNTko=",
+            "rev": "358cf3f1fbf4156638e33462fe5bfa61c18e6a99",
+            "sha256": "sha256-FnsnSO4SVea557Dvf5r3/GXlGkBbQsnxPR6A/TkACXI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/c4rlo/runapp"
         },
-        "version": "88ba10cadf02ba39007426236d8199c41f51b84f"
+        "version": "358cf3f1fbf4156638e33462fe5bfa61c18e6a99"
     },
     "san-francisco-fonts": {
         "cargoLocks": null,
@@ -161,7 +161,7 @@
     },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
-        "date": "2025-06-20",
+        "date": "2025-07-03",
         "extract": null,
         "name": "whitesur-gtk-theme",
         "passthru": null,
@@ -171,12 +171,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "14d28dab5795f6d913f0b474c60ab6d26963ef15",
-            "sha256": "sha256-owcf643xFBGz1SLwJjFqBSjAA5Sr5dv/L+E/YX6jtTg=",
+            "rev": "58a7cc78afb4a95ffb459792603ceaca4c6c1a7f",
+            "sha256": "sha256-gfcEuAhZQP+dlr2newJxN916u2hYTfEdMaTpU6fFyL0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme"
         },
-        "version": "14d28dab5795f6d913f0b474c60ab6d26963ef15"
+        "version": "58a7cc78afb4a95ffb459792603ceaca4c6c1a7f"
     }
 }
