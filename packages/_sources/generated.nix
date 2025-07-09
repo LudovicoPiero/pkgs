@@ -3,17 +3,17 @@
 {
   app2unit = {
     pname = "app2unit";
-    version = "34fe24a230c0e48637c3e2bbfeeb0a3f3a48813b";
+    version = "6a2fe29210fd939571fdfcd78581965ef479c749";
     src = fetchgit {
       url = "https://github.com/Vladimir-csp/app2unit";
-      rev = "34fe24a230c0e48637c3e2bbfeeb0a3f3a48813b";
+      rev = "6a2fe29210fd939571fdfcd78581965ef479c749";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-xHqPCA9ycPcImmyMrJZEfnfrFZ3sKfP/mhJ86CHLTQ8=";
+      sha256 = "sha256-TjePNU9Wu9kaXSczMAZcMV0HSC9zqzLcgKXdbkyLSAU=";
     };
-    date = "2025-06-29";
+    date = "2025-07-07";
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
@@ -45,17 +45,17 @@
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
-    version = "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438";
+    version = "1878f86837f7627195ec4b21043898169f091cd9";
     src = fetchgit {
       url = "https://github.com/black7375/Firefox-UI-Fix";
-      rev = "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438";
+      rev = "1878f86837f7627195ec4b21043898169f091cd9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-/AaUXbT9iZ2si1pp5CTGvGrTG/hj1fU3Ir/ZAijvscc=";
+      sha256 = "sha256-XP8a3N3lh7o7aigl9Y2nId75o+bV3alTwPJhrCkKjhw=";
     };
-    date = "2025-05-11";
+    date = "2025-07-06";
   };
   fuzzmoji = {
     pname = "fuzzmoji";
