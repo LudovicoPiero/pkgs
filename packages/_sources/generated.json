@@ -1,7 +1,7 @@
 {
     "app2unit": {
         "cargoLocks": null,
-        "date": "2025-06-29",
+        "date": "2025-07-07",
         "extract": null,
         "name": "app2unit",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "34fe24a230c0e48637c3e2bbfeeb0a3f3a48813b",
-            "sha256": "sha256-xHqPCA9ycPcImmyMrJZEfnfrFZ3sKfP/mhJ86CHLTQ8=",
+            "rev": "6a2fe29210fd939571fdfcd78581965ef479c749",
+            "sha256": "sha256-TjePNU9Wu9kaXSczMAZcMV0HSC9zqzLcgKXdbkyLSAU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Vladimir-csp/app2unit"
         },
-        "version": "34fe24a230c0e48637c3e2bbfeeb0a3f3a48813b"
+        "version": "6a2fe29210fd939571fdfcd78581965ef479c749"
     },
     "catppuccin-fcitx5": {
         "cargoLocks": null,
@@ -61,7 +61,7 @@
     },
     "firefox-ui-fix": {
         "cargoLocks": null,
-        "date": "2025-05-11",
+        "date": "2025-07-06",
         "extract": null,
         "name": "firefox-ui-fix",
         "passthru": null,
@@ -71,13 +71,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438",
-            "sha256": "sha256-/AaUXbT9iZ2si1pp5CTGvGrTG/hj1fU3Ir/ZAijvscc=",
+            "rev": "1878f86837f7627195ec4b21043898169f091cd9",
+            "sha256": "sha256-XP8a3N3lh7o7aigl9Y2nId75o+bV3alTwPJhrCkKjhw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/black7375/Firefox-UI-Fix"
         },
-        "version": "6f50e027c3ca8d1e3a6f67dc095b311f8bcb9438"
+        "version": "1878f86837f7627195ec4b21043898169f091cd9"
     },
     "fuzzmoji": {
         "cargoLocks": null,
