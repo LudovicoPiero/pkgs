@@ -45,17 +45,17 @@
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
-    version = "1878f86837f7627195ec4b21043898169f091cd9";
+    version = "13e10fccb4eff80bbf5ffec13e8ddf70a185ad3f";
     src = fetchgit {
       url = "https://github.com/black7375/Firefox-UI-Fix";
-      rev = "1878f86837f7627195ec4b21043898169f091cd9";
+      rev = "13e10fccb4eff80bbf5ffec13e8ddf70a185ad3f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-XP8a3N3lh7o7aigl9Y2nId75o+bV3alTwPJhrCkKjhw=";
+      sha256 = "sha256-8kQhfou+bG6n1ujIF/ZnHSiZGXug9Di4Yj73oPBE4VM=";
     };
-    date = "2025-07-06";
+    date = "2025-07-13";
   };
   fuzzmoji = {
     pname = "fuzzmoji";
@@ -73,17 +73,17 @@
   };
   runapp = {
     pname = "runapp";
-    version = "358cf3f1fbf4156638e33462fe5bfa61c18e6a99";
+    version = "f9f9013d1ac0ad2f366081272e2dbb9dad880b67";
     src = fetchgit {
       url = "https://github.com/c4rlo/runapp";
-      rev = "358cf3f1fbf4156638e33462fe5bfa61c18e6a99";
+      rev = "f9f9013d1ac0ad2f366081272e2dbb9dad880b67";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-FnsnSO4SVea557Dvf5r3/GXlGkBbQsnxPR6A/TkACXI=";
+      sha256 = "sha256-qlmFxihCkbp65aDYy9SljJ4Mqdsk4w/aAkuabCXk82w=";
     };
-    date = "2025-07-05";
+    date = "2025-07-13";
   };
   san-francisco-fonts = {
     pname = "san-francisco-fonts";
@@ -115,16 +115,16 @@
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "58a7cc78afb4a95ffb459792603ceaca4c6c1a7f";
+    version = "1a9e44a498cb8ef424ffd24440b1dcc2754c22fa";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "58a7cc78afb4a95ffb459792603ceaca4c6c1a7f";
+      rev = "1a9e44a498cb8ef424ffd24440b1dcc2754c22fa";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-gfcEuAhZQP+dlr2newJxN916u2hYTfEdMaTpU6fFyL0=";
+      sha256 = "sha256-vokadEP6TQLPzmqfzz1vkplDkbbv2MY89QT/Osebz7E=";
     };
-    date = "2025-07-03";
+    date = "2025-07-12";
   };
 }
