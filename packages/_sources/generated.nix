@@ -3,17 +3,17 @@
 {
   app2unit = {
     pname = "app2unit";
-    version = "6a2fe29210fd939571fdfcd78581965ef479c749";
+    version = "d951c2b277a32cd2c57659c363bee4872c989969";
     src = fetchgit {
       url = "https://github.com/Vladimir-csp/app2unit";
-      rev = "6a2fe29210fd939571fdfcd78581965ef479c749";
+      rev = "d951c2b277a32cd2c57659c363bee4872c989969";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-TjePNU9Wu9kaXSczMAZcMV0HSC9zqzLcgKXdbkyLSAU=";
+      sha256 = "sha256-7eEVjgs+8k+/NLteSBKgn4gPaPLHC+3Uzlmz6XB0930=";
     };
-    date = "2025-07-07";
+    date = "2025-08-06";
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
@@ -31,17 +31,17 @@
   };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
-    version = "722a3117a01600c6dcc78271aff4aeff62b7af09";
+    version = "6f173d0873dd33c5653dee89a831af3e49db3e36";
     src = fetchgit {
       url = "https://github.com/rafaelmardojai/firefox-gnome-theme";
-      rev = "722a3117a01600c6dcc78271aff4aeff62b7af09";
+      rev = "6f173d0873dd33c5653dee89a831af3e49db3e36";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-KJjs4BdQ03X4jcc/aAcjO0PwHaYUYBAb6UIIL5fFslY=";
+      sha256 = "sha256-9veVYpPCwKNjIK5gOigl5nEUN6tmrSHXUv4bVZkRuOE=";
     };
-    date = "2025-07-27";
+    date = "2025-08-04";
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
@@ -115,16 +115,16 @@
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "55e9e35d66f7c6ba830024fdbb1cff364c604311";
+    version = "0f1c6dfe433e7a12ef54913a2fbae174e64b9d46";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "55e9e35d66f7c6ba830024fdbb1cff364c604311";
+      rev = "0f1c6dfe433e7a12ef54913a2fbae174e64b9d46";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-7phmmPkEpLfiB1lNX05vfECpPgAf7+oWVc8tWUVlKmk=";
+      sha256 = "sha256-b40W/ehHt41lTeJXcU0eZkzj6F49sJwCLY7rOfn00vo=";
     };
-    date = "2025-08-02";
+    date = "2025-08-06";
   };
 }
