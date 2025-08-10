@@ -61,7 +61,7 @@
     },
     "firefox-ui-fix": {
         "cargoLocks": null,
-        "date": "2025-07-13",
+        "date": "2025-08-10",
         "extract": null,
         "name": "firefox-ui-fix",
         "passthru": null,
@@ -71,13 +71,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "13e10fccb4eff80bbf5ffec13e8ddf70a185ad3f",
-            "sha256": "sha256-8kQhfou+bG6n1ujIF/ZnHSiZGXug9Di4Yj73oPBE4VM=",
+            "rev": "63406a0e91f8a66b3d9ec564fce64d887b19eaf1",
+            "sha256": "sha256-OpF4k2gFSdo4plnc9ffzKdOGEKVbzVozeq5aE9QYnVY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/black7375/Firefox-UI-Fix"
         },
-        "version": "13e10fccb4eff80bbf5ffec13e8ddf70a185ad3f"
+        "version": "63406a0e91f8a66b3d9ec564fce64d887b19eaf1"
     },
     "fuzzmoji": {
         "cargoLocks": null,
@@ -161,7 +161,7 @@
     },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
-        "date": "2025-08-06",
+        "date": "2025-08-10",
         "extract": null,
         "name": "whitesur-gtk-theme",
         "passthru": null,
@@ -171,12 +171,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0f1c6dfe433e7a12ef54913a2fbae174e64b9d46",
-            "sha256": "sha256-b40W/ehHt41lTeJXcU0eZkzj6F49sJwCLY7rOfn00vo=",
+            "rev": "1c4e533ab7b83b45d1e00d55e5a5e58794776845",
+            "sha256": "sha256-PjVlGLO1kIXKaqB6gQbvwsrWpAiLYiUfL2e/8eOyvRs=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme"
         },
-        "version": "0f1c6dfe433e7a12ef54913a2fbae174e64b9d46"
+        "version": "1c4e533ab7b83b45d1e00d55e5a5e58794776845"
     }
 }
