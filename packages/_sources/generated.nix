@@ -45,17 +45,17 @@
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
-    version = "13e10fccb4eff80bbf5ffec13e8ddf70a185ad3f";
+    version = "63406a0e91f8a66b3d9ec564fce64d887b19eaf1";
     src = fetchgit {
       url = "https://github.com/black7375/Firefox-UI-Fix";
-      rev = "13e10fccb4eff80bbf5ffec13e8ddf70a185ad3f";
+      rev = "63406a0e91f8a66b3d9ec564fce64d887b19eaf1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-8kQhfou+bG6n1ujIF/ZnHSiZGXug9Di4Yj73oPBE4VM=";
+      sha256 = "sha256-OpF4k2gFSdo4plnc9ffzKdOGEKVbzVozeq5aE9QYnVY=";
     };
-    date = "2025-07-13";
+    date = "2025-08-10";
   };
   fuzzmoji = {
     pname = "fuzzmoji";
@@ -115,16 +115,16 @@
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
-    version = "0f1c6dfe433e7a12ef54913a2fbae174e64b9d46";
+    version = "1c4e533ab7b83b45d1e00d55e5a5e58794776845";
     src = fetchgit {
       url = "https://github.com/vinceliuice/WhiteSur-gtk-theme";
-      rev = "0f1c6dfe433e7a12ef54913a2fbae174e64b9d46";
+      rev = "1c4e533ab7b83b45d1e00d55e5a5e58794776845";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-b40W/ehHt41lTeJXcU0eZkzj6F49sJwCLY7rOfn00vo=";
+      sha256 = "sha256-PjVlGLO1kIXKaqB6gQbvwsrWpAiLYiUfL2e/8eOyvRs=";
     };
-    date = "2025-08-06";
+    date = "2025-08-10";
   };
 }
