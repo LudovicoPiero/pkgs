@@ -1,7 +1,7 @@
 {
     "app2unit": {
         "cargoLocks": null,
-        "date": "2025-08-20",
+        "date": "2025-08-26",
         "extract": null,
         "name": "app2unit",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "05b0656624d8e7797782dca2bb63e07ffc3e28dc",
-            "sha256": "sha256-t8Fh/K7S0c3pvD1qqBhxeKnRd7HrMA31Y2kw0K/ByPQ=",
+            "rev": "3cefa363fcb12adad671353e4042e8cb8b980a30",
+            "sha256": "sha256-nx0nifIYfA31MHB/K30f9hN1QPvFongpQNI4tU8OdPU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Vladimir-csp/app2unit"
         },
-        "version": "05b0656624d8e7797782dca2bb63e07ffc3e28dc"
+        "version": "3cefa363fcb12adad671353e4042e8cb8b980a30"
     },
     "catppuccin-fcitx5": {
         "cargoLocks": null,
@@ -41,7 +41,7 @@
     },
     "firefox-gnome-theme": {
         "cargoLocks": null,
-        "date": "2025-08-23",
+        "date": "2025-08-24",
         "extract": null,
         "name": "firefox-gnome-theme",
         "passthru": null,
@@ -51,13 +51,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "99f0c72d0073f7c8057cd41b03aadec3af68fbeb",
-            "sha256": "sha256-LnSZjUAXoQ6C4kw5PELOE1cmRzTF7pJ4fdi7E4NZl/E=",
+            "rev": "b655eaf16d4cbec9c3472f62eee285d4b419a808",
+            "sha256": "sha256-UqYGTBgI5ypGh0Kf6zZjom/vABg7HQocB4gmxzl12uo=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/rafaelmardojai/firefox-gnome-theme"
         },
-        "version": "99f0c72d0073f7c8057cd41b03aadec3af68fbeb"
+        "version": "b655eaf16d4cbec9c3472f62eee285d4b419a808"
     },
     "firefox-ui-fix": {
         "cargoLocks": null,
