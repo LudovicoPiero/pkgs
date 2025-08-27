@@ -3,17 +3,17 @@
 {
   app2unit = {
     pname = "app2unit";
-    version = "05b0656624d8e7797782dca2bb63e07ffc3e28dc";
+    version = "3cefa363fcb12adad671353e4042e8cb8b980a30";
     src = fetchgit {
       url = "https://github.com/Vladimir-csp/app2unit";
-      rev = "05b0656624d8e7797782dca2bb63e07ffc3e28dc";
+      rev = "3cefa363fcb12adad671353e4042e8cb8b980a30";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-t8Fh/K7S0c3pvD1qqBhxeKnRd7HrMA31Y2kw0K/ByPQ=";
+      sha256 = "sha256-nx0nifIYfA31MHB/K30f9hN1QPvFongpQNI4tU8OdPU=";
     };
-    date = "2025-08-20";
+    date = "2025-08-26";
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
@@ -31,17 +31,17 @@
   };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
-    version = "99f0c72d0073f7c8057cd41b03aadec3af68fbeb";
+    version = "b655eaf16d4cbec9c3472f62eee285d4b419a808";
     src = fetchgit {
       url = "https://github.com/rafaelmardojai/firefox-gnome-theme";
-      rev = "99f0c72d0073f7c8057cd41b03aadec3af68fbeb";
+      rev = "b655eaf16d4cbec9c3472f62eee285d4b419a808";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-LnSZjUAXoQ6C4kw5PELOE1cmRzTF7pJ4fdi7E4NZl/E=";
+      sha256 = "sha256-UqYGTBgI5ypGh0Kf6zZjom/vABg7HQocB4gmxzl12uo=";
     };
-    date = "2025-08-23";
+    date = "2025-08-24";
   };
   firefox-ui-fix = {
     pname = "firefox-ui-fix";
