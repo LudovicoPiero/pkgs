@@ -1,7 +1,7 @@
 {
     "app2unit": {
         "cargoLocks": null,
-        "date": "2025-08-29",
+        "date": "2025-09-02",
         "extract": null,
         "name": "app2unit",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9d0ba968e0d836f0bc54d05dc1e941570b79085b",
-            "sha256": "sha256-zCnk85ZWVpRGP9CGhKDuQtq1WLYRLCq1xBAYixCCzSM=",
+            "rev": "da89627765177d8f54033ee24cee8e864860baeb",
+            "sha256": "sha256-M2sitlrQNSLthSaDH+R8gUcZ8i+o1ktf2SB/vvjyJEI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Vladimir-csp/app2unit"
         },
-        "version": "9d0ba968e0d836f0bc54d05dc1e941570b79085b"
+        "version": "da89627765177d8f54033ee24cee8e864860baeb"
     },
     "catppuccin-fcitx5": {
         "cargoLocks": null,
@@ -161,7 +161,7 @@
     },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
-        "date": "2025-08-31",
+        "date": "2025-09-02",
         "extract": null,
         "name": "whitesur-gtk-theme",
         "passthru": null,
@@ -171,12 +171,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3c08b8809b051cf6826384e178788215bd165c5c",
-            "sha256": "sha256-R77zylR3XVfoDIhrmLBcDgzCSGcp4oHM4sr6+sVukyQ=",
+            "rev": "0136c9297d1e49ad7e802e39f8b55027e6d36bc2",
+            "sha256": "sha256-KdU1KU+h5gv+VHWiZBrNMkoefUuX+SbuuacEnWYUJx4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme"
         },
-        "version": "3c08b8809b051cf6826384e178788215bd165c5c"
+        "version": "0136c9297d1e49ad7e802e39f8b55027e6d36bc2"
     }
 }
