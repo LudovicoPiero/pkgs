@@ -34,3 +34,9 @@ fetch.git = "https://github.com/Vladimir-csp/app2unit"
 [san-francisco-fonts]
 src.git = "https://github.com/oyezcubed/Apple-Fonts-San-Francisco-New-York"
 fetch.git = "https://github.com/oyezcubed/Apple-Fonts-San-Francisco-New-York"
+
+[wezterm]
+src.git = "https://github.com/wez/wezterm"
+fetch.git = "https://github.com/wez/wezterm"
+cargo_locks = ["Cargo.lock"]
+git.fetchSubmodules = true

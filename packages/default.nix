@@ -11,7 +11,7 @@
       # This sets `pkgs` to a nixpkgs with allowUnfree option set.
       _module.args.pkgs = import inputs.nixpkgs {
         inherit system;
-        overlays = [ ];
+        overlays = [ inputs.rust-overlay.overlays.default ];
         config.allowUnfree = true;
       };
 
@@ -41,6 +41,8 @@
         sarasa-gothic = pkgs.callPackage ./sarasa-gothic { };
 
         spotify = pkgs.callPackage ./spotify { };
+
+        wezterm = pkgs.callPackage ./wezterm { inherit sources; };
 
         whitesur-gtk-theme = pkgs.callPackage ./whitesur-gtk-theme { inherit sources; };
       };
