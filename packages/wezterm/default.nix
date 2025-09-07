@@ -50,6 +50,11 @@ rustPlatform.buildRustPackage rec {
     rm -r wezterm-ssh/tests
   '';
 
+  # dep: syntax causes build failures in rare cases
+  # https://github.com/rust-secure-code/cargo-auditable/issues/124
+  # https://github.com/wezterm/wezterm/blob/main/nix/flake.nix#L134
+  auditable = false;
+
   cargoLock = sources.wezterm.cargoLock."Cargo.lock";
 
   nativeBuildInputs = [
