@@ -162,14 +162,14 @@
     "wezterm": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wezterm-6a493f88fab06a792308e0c704790390fd3c6232/Cargo.lock",
+                "./wezterm-bf9a2aeebacec19fd07b55234d626f006b22d369/Cargo.lock",
                 {
                     "finl_unicode-1.3.0": "sha256-38S6XH4hldbkb6NP+s7lXa/NR49PI0w3KYqd+jPHND0=",
                     "xcb-imdkit-0.3.0": "sha256-rP4oKkZ0aC4/5Jm8t5Ru7n3qLHw74/58A0Gt+sygQgU="
                 }
             ]
         },
-        "date": "2025-07-30",
+        "date": "2025-09-09",
         "extract": null,
         "name": "wezterm",
         "passthru": null,
@@ -179,17 +179,17 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "6a493f88fab06a792308e0c704790390fd3c6232",
-            "sha256": "sha256-ilDUBkXKo3N83ew3I+Ic48SBjraCs3OyjVXlTItX0mU=",
+            "rev": "bf9a2aeebacec19fd07b55234d626f006b22d369",
+            "sha256": "sha256-cD0r+TchRc/A+G3HMu2PjjPm8m7Ue7GpH9F/PlfJcKE=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/wez/wezterm"
         },
-        "version": "6a493f88fab06a792308e0c704790390fd3c6232"
+        "version": "bf9a2aeebacec19fd07b55234d626f006b22d369"
     },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
-        "date": "2025-09-07",
+        "date": "2025-09-08",
         "extract": null,
         "name": "whitesur-gtk-theme",
         "passthru": null,
@@ -199,12 +199,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "47b8a94324c98094ebc71aa87a9c527db20199c8",
-            "sha256": "sha256-sL76UMv2dKOJtpi+N/ceeTjQ1a+eR6P9ErE8PBrS6wg=",
+            "rev": "c248b8532619a3637b41d0f1f7d7da222bc1267b",
+            "sha256": "sha256-uQ92mzBUPNqekUDpB+JGEc8lGcLfz6uu52dDrwhG2oY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme"
         },
-        "version": "47b8a94324c98094ebc71aa87a9c527db20199c8"
+        "version": "c248b8532619a3637b41d0f1f7d7da222bc1267b"
     }
 }
