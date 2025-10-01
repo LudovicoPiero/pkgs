@@ -73,17 +73,17 @@
   };
   runapp = {
     pname = "runapp";
-    version = "d20c20c5e80ac28deec1e500f4afb32387fe5a7e";
+    version = "036e51a497f45d93a30225c08b36a4c71e8d6813";
     src = fetchgit {
       url = "https://github.com/c4rlo/runapp";
-      rev = "d20c20c5e80ac28deec1e500f4afb32387fe5a7e";
+      rev = "036e51a497f45d93a30225c08b36a4c71e8d6813";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-RSCjGKhkfbX9XYTyknjlJUBSWb4KRLIumpH0FIEpnnY=";
+      sha256 = "sha256-lmKBKVj+5BACPCwpxWnorxID9VVkh6/LJrAmTGIuHhM=";
     };
-    date = "2025-07-16";
+    date = "2025-09-29";
   };
   san-francisco-fonts = {
     pname = "san-francisco-fonts";
