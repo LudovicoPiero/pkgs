@@ -73,17 +73,17 @@
   };
   runapp = {
     pname = "runapp";
-    version = "a8c37a39ebf9e606d746e102a03179f078e0d5d4";
+    version = "29a37370ff261fa968248a4e9d832119d5be7a3a";
     src = fetchgit {
       url = "https://github.com/c4rlo/runapp";
-      rev = "a8c37a39ebf9e606d746e102a03179f078e0d5d4";
+      rev = "29a37370ff261fa968248a4e9d832119d5be7a3a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+dIawnBTf8QU0dv93NQUCgW60BrlUXljaoNnRQjfJZQ=";
+      sha256 = "sha256-sOrzpcec0jG2Xg+EnbFwzc8foWl5t8dIS7snGudc3Yw=";
     };
-    date = "2025-10-03";
+    date = "2025-10-12";
   };
   san-francisco-fonts = {
     pname = "san-francisco-fonts";
@@ -115,24 +115,24 @@
   };
   wezterm = {
     pname = "wezterm";
-    version = "db5d7437389eac5f63ad32e3b50d95b2b86065d1";
+    version = "64f2907c635b7bab407ac300b2261c77a85c1c8e";
     src = fetchgit {
       url = "https://github.com/wez/wezterm";
-      rev = "db5d7437389eac5f63ad32e3b50d95b2b86065d1";
+      rev = "64f2907c635b7bab407ac300b2261c77a85c1c8e";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4OzgrXsSq68CP6iImhqW896X6ekv2seg4kaH3md6QLs=";
+      sha256 = "sha256-o/SSN18DmoN5LsB9RvWuAw7voGevOR5DqPBheqmq7AI=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wezterm-db5d7437389eac5f63ad32e3b50d95b2b86065d1/Cargo.lock;
+      lockFile = ./wezterm-64f2907c635b7bab407ac300b2261c77a85c1c8e/Cargo.lock;
       outputHashes = {
         "xcb-imdkit-0.3.0" = "sha256-rP4oKkZ0aC4/5Jm8t5Ru7n3qLHw74/58A0Gt+sygQgU=";
         "finl_unicode-1.3.0" = "sha256-38S6XH4hldbkb6NP+s7lXa/NR49PI0w3KYqd+jPHND0=";
       };
     };
-    date = "2025-10-05";
+    date = "2025-10-14";
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
