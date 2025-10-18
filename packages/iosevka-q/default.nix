@@ -28,11 +28,11 @@
         capital-l = "serifless"
         capital-q = "straight"
         capital-z = "straight-serifless"
-        g = "double-storey-open"
+        g = "single-storey-serifless"
         i = "serifed"
         j = "flat-hook-serifed"
         l = "serifed-flat-tailed"
-        q = "earless-rounded-straight-serifless"
+        q = "straight-serifless"
         r = "serifless"
         s = "serifless"
         t = "flat-hook-short-neck"
@@ -73,7 +73,17 @@
         lig-single-arrow-bar = "without-notch"
 
       [buildPlans.IosevkaQ.ligations]
-      inherits = "clike"
+      inherits = "matlab"
+
+    [buildPlans.IosevkaQ.widths.Condensed]
+    shape = 500
+    menu = 3
+    css = "condensed"
+
+    [buildPlans.IosevkaQ.widths.Normal]
+    shape = 600
+    menu = 5
+    css = "normal"
   '',
   extraParameters ? null,
   set ? "Q",
@@ -103,15 +113,14 @@ buildNpmPackage rec {
     npmDepsHash
     ;
 
-  nativeBuildInputs =
-    [
-      remarshal
-      ttfautohint-nox
-    ]
-    ++ lib.optionals stdenv.hostPlatform.isDarwin [
-      # libtool
-      cctools
-    ];
+  nativeBuildInputs = [
+    remarshal
+    ttfautohint-nox
+  ]
+  ++ lib.optionals stdenv.hostPlatform.isDarwin [
+    # libtool
+    cctools
+  ];
 
   buildPlan =
     if builtins.isAttrs privateBuildPlan then
@@ -120,11 +129,12 @@ buildNpmPackage rec {
       privateBuildPlan;
 
   inherit extraParameters;
-  passAsFile =
-    [ "extraParameters" ]
-    ++ lib.optionals (
-      !(builtins.isString privateBuildPlan && lib.hasPrefix builtins.storeDir privateBuildPlan)
-    ) [ "buildPlan" ];
+  passAsFile = [
+    "extraParameters"
+  ]
+  ++ lib.optionals (
+    !(builtins.isString privateBuildPlan && lib.hasPrefix builtins.storeDir privateBuildPlan)
+  ) [ "buildPlan" ];
 
   configurePhase = ''
     runHook preConfigure
