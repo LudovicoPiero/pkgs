@@ -1,7 +1,7 @@
 {
     "app2unit": {
         "cargoLocks": null,
-        "date": "2025-09-02",
+        "date": "2025-10-18",
         "extract": null,
         "name": "app2unit",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "da89627765177d8f54033ee24cee8e864860baeb",
-            "sha256": "sha256-M2sitlrQNSLthSaDH+R8gUcZ8i+o1ktf2SB/vvjyJEI=",
+            "rev": "3eeab9ec71314941fa581ac104f3b4ffd3abe77f",
+            "sha256": "sha256-+dI1fvIrYKWOAa6sLJsyFUgmFUhCl2H3gnY1VEmvazM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Vladimir-csp/app2unit"
         },
-        "version": "da89627765177d8f54033ee24cee8e864860baeb"
+        "version": "3eeab9ec71314941fa581ac104f3b4ffd3abe77f"
     },
     "catppuccin-fcitx5": {
         "cargoLocks": null,
