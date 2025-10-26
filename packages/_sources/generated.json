@@ -1,7 +1,7 @@
 {
     "app2unit": {
         "cargoLocks": null,
-        "date": "2025-10-18",
+        "date": "2025-10-22",
         "extract": null,
         "name": "app2unit",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3eeab9ec71314941fa581ac104f3b4ffd3abe77f",
-            "sha256": "sha256-+dI1fvIrYKWOAa6sLJsyFUgmFUhCl2H3gnY1VEmvazM=",
+            "rev": "6e2f0cd6939093ff2792d88d56c453fd66ec4871",
+            "sha256": "sha256-XjpSdkwmnho3ReIrzC0x4iFMJKur2q+TUcFPhsrFv1c=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Vladimir-csp/app2unit"
         },
-        "version": "3eeab9ec71314941fa581ac104f3b4ffd3abe77f"
+        "version": "6e2f0cd6939093ff2792d88d56c453fd66ec4871"
     },
     "catppuccin-fcitx5": {
         "cargoLocks": null,
@@ -182,14 +182,14 @@
     "wezterm": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wezterm-64f2907c635b7bab407ac300b2261c77a85c1c8e/Cargo.lock",
+                "./wezterm-b6e75fd7c8f9c9ad5af4efbba1d28df0969f6b17/Cargo.lock",
                 {
                     "finl_unicode-1.3.0": "sha256-38S6XH4hldbkb6NP+s7lXa/NR49PI0w3KYqd+jPHND0=",
                     "xcb-imdkit-0.3.0": "sha256-rP4oKkZ0aC4/5Jm8t5Ru7n3qLHw74/58A0Gt+sygQgU="
                 }
             ]
         },
-        "date": "2025-10-14",
+        "date": "2025-10-25",
         "extract": null,
         "name": "wezterm",
         "passthru": null,
@@ -199,13 +199,13 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "64f2907c635b7bab407ac300b2261c77a85c1c8e",
-            "sha256": "sha256-o/SSN18DmoN5LsB9RvWuAw7voGevOR5DqPBheqmq7AI=",
+            "rev": "b6e75fd7c8f9c9ad5af4efbba1d28df0969f6b17",
+            "sha256": "sha256-t99sVnRzfJUa6b6h55nFy/Xpkeeeph5ugZBl98N0jEg=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/wez/wezterm"
         },
-        "version": "64f2907c635b7bab407ac300b2261c77a85c1c8e"
+        "version": "b6e75fd7c8f9c9ad5af4efbba1d28df0969f6b17"
     },
     "whitesur-gtk-theme": {
         "cargoLocks": null,
