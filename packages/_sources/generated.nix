@@ -29,6 +29,20 @@
     };
     date = "2025-05-16";
   };
+  firefox-csshacks = {
+    pname = "firefox-csshacks";
+    version = "73d183120b00ac4205db04e83840ea288513e549";
+    src = fetchgit {
+      url = "https://github.com/MrOtherGuy/firefox-csshacks";
+      rev = "73d183120b00ac4205db04e83840ea288513e549";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-IJRSaERM2yben3OMbCkOtATOdPTN4cdxBCakRqhQg+A=";
+    };
+    date = "2025-10-24";
+  };
   firefox-gnome-theme = {
     pname = "firefox-gnome-theme";
     version = "afd438034bf91089cfeb9e6b5cb987bdf5442d0f";
@@ -128,8 +142,8 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./wezterm-64f2907c635b7bab407ac300b2261c77a85c1c8e/Cargo.lock;
       outputHashes = {
-        "xcb-imdkit-0.3.0" = "sha256-rP4oKkZ0aC4/5Jm8t5Ru7n3qLHw74/58A0Gt+sygQgU=";
         "finl_unicode-1.3.0" = "sha256-38S6XH4hldbkb6NP+s7lXa/NR49PI0w3KYqd+jPHND0=";
+        "xcb-imdkit-0.3.0" = "sha256-rP4oKkZ0aC4/5Jm8t5Ru7n3qLHw74/58A0Gt+sygQgU=";
       };
     };
     date = "2025-10-14";

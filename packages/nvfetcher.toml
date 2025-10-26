@@ -40,3 +40,7 @@ src.git = "https://github.com/wez/wezterm"
 fetch.git = "https://github.com/wez/wezterm"
 cargo_locks = ["Cargo.lock"]
 git.fetchSubmodules = true
+
+[firefox-csshacks]
+src.git = "https://github.com/MrOtherGuy/firefox-csshacks"
+fetch.git = "https://github.com/MrOtherGuy/firefox-csshacks"
