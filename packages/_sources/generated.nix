@@ -3,17 +3,17 @@
 {
   app2unit = {
     pname = "app2unit";
-    version = "3eeab9ec71314941fa581ac104f3b4ffd3abe77f";
+    version = "6e2f0cd6939093ff2792d88d56c453fd66ec4871";
     src = fetchgit {
       url = "https://github.com/Vladimir-csp/app2unit";
-      rev = "3eeab9ec71314941fa581ac104f3b4ffd3abe77f";
+      rev = "6e2f0cd6939093ff2792d88d56c453fd66ec4871";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+dI1fvIrYKWOAa6sLJsyFUgmFUhCl2H3gnY1VEmvazM=";
+      sha256 = "sha256-XjpSdkwmnho3ReIrzC0x4iFMJKur2q+TUcFPhsrFv1c=";
     };
-    date = "2025-10-18";
+    date = "2025-10-22";
   };
   catppuccin-fcitx5 = {
     pname = "catppuccin-fcitx5";
@@ -129,24 +129,24 @@
   };
   wezterm = {
     pname = "wezterm";
-    version = "64f2907c635b7bab407ac300b2261c77a85c1c8e";
+    version = "b6e75fd7c8f9c9ad5af4efbba1d28df0969f6b17";
     src = fetchgit {
       url = "https://github.com/wez/wezterm";
-      rev = "64f2907c635b7bab407ac300b2261c77a85c1c8e";
+      rev = "b6e75fd7c8f9c9ad5af4efbba1d28df0969f6b17";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-o/SSN18DmoN5LsB9RvWuAw7voGevOR5DqPBheqmq7AI=";
+      sha256 = "sha256-t99sVnRzfJUa6b6h55nFy/Xpkeeeph5ugZBl98N0jEg=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wezterm-64f2907c635b7bab407ac300b2261c77a85c1c8e/Cargo.lock;
+      lockFile = ./wezterm-b6e75fd7c8f9c9ad5af4efbba1d28df0969f6b17/Cargo.lock;
       outputHashes = {
-        "finl_unicode-1.3.0" = "sha256-38S6XH4hldbkb6NP+s7lXa/NR49PI0w3KYqd+jPHND0=";
         "xcb-imdkit-0.3.0" = "sha256-rP4oKkZ0aC4/5Jm8t5Ru7n3qLHw74/58A0Gt+sygQgU=";
+        "finl_unicode-1.3.0" = "sha256-38S6XH4hldbkb6NP+s7lXa/NR49PI0w3KYqd+jPHND0=";
       };
     };
-    date = "2025-10-14";
+    date = "2025-10-25";
   };
   whitesur-gtk-theme = {
     pname = "whitesur-gtk-theme";
