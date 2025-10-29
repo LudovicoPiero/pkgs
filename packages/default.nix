@@ -15,10 +15,13 @@
         config.allowUnfree = true;
       };
 
-      packages = {
+      packages = rec {
         app2unit = pkgs.callPackage ./app2unit { inherit sources; };
 
         catppuccin-fcitx5 = pkgs.callPackage ./catppuccin-fcitx5 { inherit sources; };
+
+        emptty-unwrapped = pkgs.callPackage ./emptty/default.nix { };
+        emptty = pkgs.callPackage ./emptty/wrapper.nix { inherit emptty-unwrapped; };
 
         iosevka-q = pkgs.callPackage ./iosevka-q { };
 
