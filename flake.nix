@@ -4,7 +4,7 @@
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable-small";
-    rust-overlay.url = "github:oxalica/rust-overlay/59c45eb69d9222a4362673141e00ff77842cd219";
+    rust-overlay.url = "github:oxalica/rust-overlay/59c45eb69d9222a4362673141e00ff77842cd219"; # 2025-10-31
   };
 
   outputs =
