@@ -3,53 +3,45 @@
   systems = [ "x86_64-linux" ];
 
   perSystem =
-    { pkgs, system, ... }:
+    {
+      pkgs,
+      system,
+      lib,
+      ...
+    }:
     let
       sources = pkgs.callPackage ./_sources/generated.nix { };
-    in
-    {
-      # This sets `pkgs` to a nixpkgs with allowUnfree option set.
-      _module.args.pkgs = import inputs.nixpkgs {
+
+      _pkgs = import inputs.nixpkgs {
         inherit system;
         overlays = [ inputs.rust-overlay.overlays.default ];
         config.allowUnfree = true;
       };
 
-      packages = rec {
-        app2unit = pkgs.callPackage ./app2unit { inherit sources; };
+      # Detect subdirectories that contain default.nix
+      dirs = lib.filter (
+        name: builtins.pathExists ./${name}/default.nix && !(lib.strings.hasPrefix "_" name)
+      ) (builtins.attrNames (builtins.readDir ./.));
 
-        catppuccin-fcitx5 = pkgs.callPackage ./catppuccin-fcitx5 { inherit sources; };
+      # Safely call each package:
+      # Try passing `sources`, and if it fails, retry without it.
+      safeCall =
+        path:
+        let
+          fn = import path;
+          args = builtins.functionArgs fn;
+        in
+        if args ? sources then _pkgs.callPackage path { inherit sources; } else _pkgs.callPackage path { };
 
-        emptty-unwrapped = pkgs.callPackage ./emptty/default.nix { };
-        emptty = pkgs.callPackage ./emptty/wrapper.nix { inherit emptty-unwrapped; };
-
-        iosevka-q = pkgs.callPackage ./iosevka-q { };
-
-        fuzzmoji = pkgs.callPackage ./fuzzmoji { inherit sources; };
-
-        firefox-csshacks = pkgs.callPackage ./firefox-csshacks { inherit sources; };
-
-        firefox-gnome-theme = pkgs.callPackage ./firefox-gnome-theme { inherit sources; };
-
-        firefox-ui-fix = pkgs.callPackage ./firefox-ui-fix { inherit sources; };
-
-        # runapp = pkgs.callPackage ./runapp { inherit sources; };
-
-        new-york-font = pkgs.callPackage ./new-york-font { inherit sources; };
-
-        san-francisco-compact = pkgs.callPackage ./san-francisco-compact { inherit sources; };
-
-        san-francisco-pro = pkgs.callPackage ./san-francisco-pro { inherit sources; };
-
-        san-francisco-mono = pkgs.callPackage ./san-francisco-mono { inherit sources; };
-
-        sarasa-gothic = pkgs.callPackage ./sarasa-gothic { };
-
-        spotify = pkgs.callPackage ./spotify { };
-
-        wezterm = pkgs.callPackage ./wezterm { inherit sources; };
-
-        whitesur-gtk-theme = pkgs.callPackage ./whitesur-gtk-theme { inherit sources; };
-      };
+      packages = lib.listToAttrs (
+        map (dir: {
+          name = dir;
+          value = safeCall ./${dir};
+        }) dirs
+      );
+    in
+    {
+      _module.args.pkgs = _pkgs;
+      inherit packages;
     };
 }
